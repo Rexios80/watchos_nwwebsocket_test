@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct Websocket_TestApp: App {
-    
+    let client = SocketClient()
     
     var body: some Scene {
         WindowGroup {
@@ -18,3 +18,4 @@ struct Websocket_TestApp: App {
     }
 }
 
+class SocketClient {}
